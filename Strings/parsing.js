@@ -1,6 +1,6 @@
 "use strict";
-function parseAndDisplayName(){
-    let name = "Brenda Kaye";
+function parseAndDisplayName(name){
+ 
     let spacePosition = name.indexOf(" ");
     
     console.log(`Name: ${name}`);
@@ -9,3 +9,7 @@ function parseAndDisplayName(){
 
 }
 parseAndDisplayName();
+
+parseAndDisplayName("Brenda Kaye");
+parseAndDisplayName("Ian Auston");
+parseAndDisplayName("Siddalee Grace");
