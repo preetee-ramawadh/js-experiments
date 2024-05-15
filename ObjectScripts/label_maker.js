@@ -1,13 +1,5 @@
 "use strict";
 
-let contact = {
-    name: "Preetee Ram Awadh",
-    address: "Shreeji",
-    city: "Thane",
-    state: "Maharashtra",
-    zip: "400607"
-}
-
 function printContact(contact){
     console.log(contact.name);
     console.log(contact.address);
@@ -16,4 +8,12 @@ function printContact(contact){
     console.log(contact.zip);
 }
 
-printContact(contact);
+let my_contact = {
+    name: "Preetee Ram Awadh",
+    address: "Shreeji splendor",
+    city: "Thane",
+    state: "Maharashtra",
+    zip: "400607"
+}
+
+printContact(my_contact);
